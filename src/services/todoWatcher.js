@@ -221,7 +221,7 @@ class TodoWatcher {
         title: `TODO Analysis - ${new Date().toISOString().split('T')[0]}`,
         summary: this.formatAnalysisSummary(analysis),
         details: JSON.stringify(analysis, null, 2),
-        project_path: '/var/www/NextBid_Dev/ai-workers',
+        project_path: '/var/www/NextBid_Dev/ai-team',
         source: 'Ryan:TodoWatcher'
       };
 
